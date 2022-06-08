@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**", "**/expo", "**/expo/**"]
+  },
+  "devDependencies": {
+    "expo-yarn-workspaces": "^2.0.0",
+    "lerna": "^5.1.0"
+  }
+}

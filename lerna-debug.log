@@ -1,0 +1,18 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   scope: 'examio-react-app',
+0 silly argv   lernaVersion: '5.1.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v5.1.0
+2 verbose rootPath /Users/shahzarkhalid/Desktop/Examio MonoRepo/examio-monorepo
+3 notice filter including "examio-react-app"
+4 info filter [ 'examio-react-app' ]
+5 error TypeError: Cannot read property 'split' of undefined
+5 error     at Minimatch.match (/Users/shahzarkhalid/Desktop/Examio MonoRepo/examio-monorepo/node_modules/minimatch/minimatch.js:743:9)
+5 error     at /Users/shahzarkhalid/Desktop/Examio MonoRepo/examio-monorepo/node_modules/minimatch/minimatch.js:717:15
+5 error     at Array.filter (<anonymous>)
+5 error     at Function.minimatch.match (/Users/shahzarkhalid/Desktop/Examio MonoRepo/examio-monorepo/node_modules/minimatch/minimatch.js:716:15)
+5 error     at module.exports (/Users/shahzarkhalid/Desktop/Examio MonoRepo/examio-monorepo/node_modules/multimatch/index.js:25:39)
+5 error     at filterPackages (/Users/shahzarkhalid/Desktop/Examio MonoRepo/examio-monorepo/node_modules/@lerna/filter-packages/filter-packages.js:44:28)
